@@ -1,0 +1,10 @@
+node_modules
+package-lock.json
+.idea
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
