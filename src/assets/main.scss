@@ -1,0 +1,25 @@
+// css reset
+@import "reset.scss";
+
+//font-family: "Golos Text", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+//font-family: "Public Sans", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+$main-color: #000;
+$secondary-color: #A3A3A3;
+$accent-color: rgba(242, 169, 63, 1);
+$accent-color-opacity: rgba(242, 169, 63, .2);
+
+html,body, #app{
+  width:100%;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size:14px;
+}
+.accent-text {
+  font-family: "Golos Text", sans-serif;
+  font-weight: 600;
+}
